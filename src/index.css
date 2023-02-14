@@ -1,9 +1,5 @@
-/*
-=============== 
-Variables
-===============
-*/
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Mukta:wght@500&family=PT+Sans:wght@700&display=swap");
+
 :root {
   --clr-primary-1: hsl(245, 28%, 21%);
   --clr-primary-2: hsl(245, 28%, 29%);
@@ -17,12 +13,12 @@ Variables
   --clr-primary-8: hsl(240, 31%, 74%);
   --clr-primary-9: hsl(245, 31%, 81%);
   --clr-primary-10: hsl(245, 31%, 88%);
-  /* darkest grey - used for headings */
+
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
-  /* grey used for paragraphs */
+
   --clr-grey-5: hsl(210, 22%, 49%);
   --clr-grey-6: hsl(209, 23%, 60%);
   --clr-grey-7: hsl(211, 27%, 70%);
@@ -43,11 +39,6 @@ Variables
   --max-width: 1170px;
   --fixed-width: 620px;
 }
-/*
-=============== 
-Global Styles
-===============
-*/
 
 *,
 ::after,
@@ -130,9 +121,7 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
 
-/* section */
 .section {
   padding: 5rem 0;
 }
