@@ -79,7 +79,7 @@ const AddToCart = ({ product }) => {
             addToCart(id, mainColor, amount, product);
           }}
         >
-          add to cart
+          add to cart &#128722;
         </Link>
       </div>
     </Wrapper>
