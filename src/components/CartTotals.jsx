@@ -8,7 +8,9 @@ import axios from "axios";
 
 const CartTotals = () => {
   const { total_amount, shipping_fee } = useCartContext();
+  // eslint-disable-next-line
   const { myUser, loginWithRedirect } = useUserContext();
+  // eslint-disable-next-line
   const [data, setData] = useState({});
 
   const placeorder = async (event) => {

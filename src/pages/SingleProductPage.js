@@ -46,6 +46,7 @@ const SingleProductPage = () => {
   const {
     name,
     price,
+    // eslint-disable-next-line
     description,
     stock,
     stars,

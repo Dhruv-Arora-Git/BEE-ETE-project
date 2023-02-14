@@ -6,9 +6,11 @@ import { getUniqueValues, formatPrice } from "../utils/helpers";
 const Filters = () => {
   const {
     filters: {
+      // eslint-disable-next-line
       text,
       category,
       company,
+      // eslint-disable-next-line
       color,
       min_price,
       price,
@@ -22,6 +24,7 @@ const Filters = () => {
 
   const categories = getUniqueValues(all_products, "category");
   const companies = getUniqueValues(all_products, "company");
+  // eslint-disable-next-line
   const colors = getUniqueValues(all_products, "colors");
   return (
     <Wrapper>
