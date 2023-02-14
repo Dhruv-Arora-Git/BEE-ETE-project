@@ -31,7 +31,7 @@ const Nav = () => {
             const { id, text, url } = link;
             return (
               <li key={id}>
-                <Link to={url}>{text}</Link>
+                <Link to={url}>{text} &#10024;</Link>
               </li>
             );
           })}

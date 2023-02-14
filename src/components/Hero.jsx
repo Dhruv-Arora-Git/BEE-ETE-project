@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import heroBcg from "../assets/hero-bcg.jpeg";
-import heroBcg2 from "../assets/hero-bcg-2.jpeg";
+import heroBcg from "../assets/hero-img.jpeg";
+import heroBcg2 from "../assets/hero-img-2.jpeg";
 const Hero = () => {
   return (
     <Wrapper className="section-center">
@@ -20,7 +20,7 @@ const Hero = () => {
           comfortable lives, for storage, sitting on and, for relaxation.
         </p>
         <Link to="/products" className="btn hero-btn">
-          shop now
+          Get in &#127776;
         </Link>
       </article>
       <article className="img-container">

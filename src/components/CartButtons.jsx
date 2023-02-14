@@ -130,20 +130,7 @@ const CartButton = () => {
             <span className="cart-value">{total_items}</span>
           </span>
         </Link>
-        {/* {myUser && <>
-        <button
-          type='button'
-          className='auth-btn'
-          onClick={() => {
-            clearCart()
-            localStorage.removeItem('user');
-            setMyUser();
-          }}
-        >
-          {myUser.name} <FaUser />
-        </button>
-        </>
-        } */}
+
         {myUser ? (
           <button
             type="button"
