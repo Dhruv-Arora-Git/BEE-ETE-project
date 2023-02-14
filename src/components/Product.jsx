@@ -35,7 +35,7 @@ const Wrapper = styled.article`
   }
   .link {
     position: absolute;
-    top: 50%;
+
     left: 50%;
     transform: translate(-50%, -50%);
     background: var(--clr-primary-5);
@@ -48,10 +48,6 @@ const Wrapper = styled.article`
     transition: var(--transition);
     opacity: 0;
     cursor: pointer;
-    svg {
-      font-size: 1.25rem;
-      color: var(--clr-white);
-    }
   }
   .container:hover img {
     opacity: 0.5;

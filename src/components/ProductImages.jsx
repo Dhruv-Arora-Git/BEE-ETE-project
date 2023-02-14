@@ -5,7 +5,7 @@ const ProductImages = ({ images = [[]] }) => {
   const [main, setMain] = useState(images[0]);
   return (
     <Wrapper>
-      <img src={main.url} alt="" className="active main" />
+      <img src={main.url} alt="img" className="active main" />
     </Wrapper>
   );
 };
